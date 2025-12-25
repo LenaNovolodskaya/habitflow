@@ -37,6 +37,7 @@ POST http://localhost:8002/api/completions
   "habitId": 5,
   "date": "2024-01-15"
 }
+
 Tracking Service (Node.js) получает запрос и:
 - Проверяет существование пользователя (запрос к User Service)
 - Проверяет существование привычки (запрос к User Service)
